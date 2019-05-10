@@ -41,3 +41,18 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: BackGround
+    uniqueID: 766765979
+    locked: 0
+  - name: Cows1
+    uniqueID: 1623841865
+    locked: 0
+  - name: Farm
+    uniqueID: 2926283181
+    locked: 0
+  - name: Cow2
+    uniqueID: 3165039411
+    locked: 0
+  - name: Player
+    uniqueID: 2928988049
+    locked: 0

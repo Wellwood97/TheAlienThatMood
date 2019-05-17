@@ -47,13 +47,19 @@ TagManager:
   - name: Grass
     uniqueID: 962992333
     locked: 0
+  - name: WheatBackground
+    uniqueID: 2615661531
+    locked: 0
+  - name: Farm1
+    uniqueID: 1578931905
+    locked: 0
   - name: Cows1
     uniqueID: 1623841865
     locked: 0
   - name: Crop
     uniqueID: 4061436987
     locked: 0
-  - name: Farm
+  - name: Farm2
     uniqueID: 2926283181
     locked: 0
   - name: Cow2

@@ -12,6 +12,11 @@ TextureImporter:
     21300014: epsy original cow_7
     21300016: epsy original cow_8
     21300018: epsy original cow_9
+    21300020: epsy original cow_10
+    21300022: epsy original cow_11
+    21300024: epsy original cow_12
+    21300026: epsy original cow_13
+    21300028: epsy original cow_14
   externalObjects: {}
   serializedVersion: 6
   mipmaps:
@@ -135,7 +140,7 @@ TextureImporter:
         width: 254
         height: 261
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -150,12 +155,12 @@ TextureImporter:
       name: epsy original cow_1
       rect:
         serializedVersion: 2
-        x: 260
+        x: 8
         y: 784
         width: 250
         height: 236
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -170,12 +175,12 @@ TextureImporter:
       name: epsy original cow_2
       rect:
         serializedVersion: 2
-        x: 507
-        y: 778
+        x: 258
+        y: 766
         width: 255
         height: 245
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -195,7 +200,7 @@ TextureImporter:
         width: 249
         height: 200
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -210,12 +215,12 @@ TextureImporter:
       name: epsy original cow_4
       rect:
         serializedVersion: 2
-        x: 260
-        y: 521
+        x: 257
+        y: 525
         width: 251
         height: 207
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -235,7 +240,7 @@ TextureImporter:
         width: 241
         height: 234
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -250,12 +255,12 @@ TextureImporter:
       name: epsy original cow_6
       rect:
         serializedVersion: 2
-        x: 8
-        y: 284
+        x: 7
+        y: 292
         width: 248
         height: 218
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -270,12 +275,12 @@ TextureImporter:
       name: epsy original cow_7
       rect:
         serializedVersion: 2
-        x: 255
-        y: 261
+        x: 265
+        y: 271
         width: 257
         height: 231
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -295,7 +300,7 @@ TextureImporter:
         width: 246
         height: 249
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -315,13 +320,113 @@ TextureImporter:
         width: 274
         height: 198
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
       spriteID: 9d6fb0bcc728b2d4c9ab2a866ca062ae
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epsy original cow_10
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 780
+        width: 245
+        height: 230
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03d32d2e4c89c3f4784a217cecf6ff21
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epsy original cow_11
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 769
+        width: 249
+        height: 241
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a91d2fa2815a2748b07c17a03c77e5e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epsy original cow_12
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 521
+        width: 249
+        height: 221
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d0253cf2e62d084abded77c5d24a5ab
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epsy original cow_13
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 515
+        width: 255
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0664e9f31eb2624b8219d58378a4f91
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: epsy original cow_14
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 517
+        width: 237
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fca7cebd840bd5547987e87a64eda520
       vertices: []
       indices: 
       edges: []

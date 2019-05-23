@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class cameracontroller : MonoBehaviour {
+public class Cameracontroller : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {

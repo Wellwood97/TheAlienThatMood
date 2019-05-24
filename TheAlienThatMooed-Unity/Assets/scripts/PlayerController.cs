@@ -5,7 +5,8 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour {
 
     public float speed;             //Floating point variable to store the player's movement speed.
-
+    public float rocketspeed;
+    private float currentspeed; 
     private Rigidbody2D rb2d;       //Store a reference to the Rigidbody2D component required to use 2D Physics.
 
     // Use this for initialization
@@ -13,6 +14,8 @@ public class PlayerController : MonoBehaviour {
     {
         //Get and store a reference to the Rigidbody2D component so that we can access it.
         rb2d = GetComponent<Rigidbody2D>();
+
+        currentspeed = speed;
     }
 
     //FixedUpdate is called at a fixed interval and is independent of frame rate. Put physics code here.
@@ -29,16 +32,32 @@ public class PlayerController : MonoBehaviour {
         Vector2 movement = new Vector2(moveHorizontal, moveVertical);
 
         //Call the AddForce function of our Rigidbody2D rb2d supplying movement multiplied by speed to move our player.
-        rb2d.AddForce(movement * speed);
+        rb2d.AddForce(movement * currentspeed);
     }
 
-    //OnTriggerEnter2D is called whenever this object overlaps with a trigger collider.
+    //OnTriggerEnter2D is called whenever this object overlaps with a trigger collider. for (rocketfuel) sprite
     void OnTriggerEnter2D(Collider2D other)
     {
         //Check the provided Collider2D parameter other to see if it is tagged "PickUp", if it is...
-        if (other.gameObject.CompareTag("PickUp"))
+        if (other.gameObject.CompareTag("Fuel"))
+        {
+            other.gameObject.SetActive(false);
+            currentspeed = rocketspeed;
+            StartCoroutine(changespeedback());
+        }
+        //Check the provided Collider2D parameter other to see if it is tagged "PickUp", if it is...
+        if (other.gameObject.CompareTag("HP"))
         {
             other.gameObject.SetActive(false);
         }
     }
+
+    IEnumerator changespeedback()
+    {
+        yield return new WaitForSeconds(5);
+        currentspeed = speed;
+
+    }
+    
+
 }

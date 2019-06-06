@@ -118,6 +118,7 @@ public class PlayerController : MonoBehaviour
         if (other.gameObject.CompareTag("HP"))
         {
             other.gameObject.SetActive(false);
+            PlayerController.health += 1;
         }
         //Check the provided Collider2D parameter other to see if it is tagged "PickUp", if it is...
         if (other.gameObject.CompareTag("cow"))

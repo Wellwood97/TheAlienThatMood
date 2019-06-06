@@ -36,7 +36,7 @@ public class Projectile : MonoBehaviour
         if (other.CompareTag("Player")) {
             DestroyProjectile();
 
-
+            PlayerController.health -= 1;
 
         }
 
@@ -47,7 +47,7 @@ public class Projectile : MonoBehaviour
     {
 
         Destroy(gameObject);
-
+        
 
 
     }

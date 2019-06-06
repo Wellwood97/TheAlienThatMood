@@ -7,7 +7,7 @@ using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour
 {
-
+     
     public float speed;             //Floating point variable to store the player's movement speed.
     public float rocketspeed;
     private float currentspeed;
@@ -15,24 +15,67 @@ public class PlayerController : MonoBehaviour
     public Text countText;
     public Text winText;            //Store a reference to the UI Text component which will display the 'You win' message.
     private int count;                //Integer to store the number of pickups collected so far
+    public GameObject heart1, heart2, heart3;
+    public static int health;
     // Use this for initialization
     void Start()
     {
-        //Get and store a reference to the Rigidbody2D component so that we can access it.
-        rb2d = GetComponent<Rigidbody2D>();
 
-        currentspeed = speed;
 
-        //Initialize count to zero.
-        count = 0;
+        {
+            health = 3;
+            heart1.gameObject.SetActive(true);
+            heart2.gameObject.SetActive(true);
+            heart3.gameObject.SetActive(true);
+        }
+        { //Get and store a reference to the Rigidbody2D component so that we can access it.
+            rb2d = GetComponent<Rigidbody2D>();
 
-        //Initialze winText to a blank string since we haven't won yet at beginning.
-        winText.text = "";
+            currentspeed = speed;
 
-        //Call our SetCountText function which will update the text with the current value for count.
-        SetCountText();
+            //Initialize count to zero.
+            count = 0;
+
+            //Initialze winText to a blank string since we haven't won yet at beginning.
+            winText.text = "YOU WON";
+
+            //Call our SetCountText function which will update the text with the current value for count.
+            SetCountText();
+        }
+        }
+
+
+    private void Update() {
+        if (health > 3)
+            health = 3;
+
+      switch (health)  {
+         case 3:
+                heart1.gameObject.SetActive(true);
+                heart2.gameObject.SetActive(true);
+                heart3.gameObject.SetActive(true);
+                break;
+         case 2:
+                heart1.gameObject.SetActive(true);
+                heart2.gameObject.SetActive(true);
+                heart3.gameObject.SetActive(false);
+                break;
+         case 1:
+                heart1.gameObject.SetActive(true);
+                heart2.gameObject.SetActive(false);
+                heart3.gameObject.SetActive(false);
+                break;
+         case 0:
+                heart1.gameObject.SetActive(false);
+                heart2.gameObject.SetActive(false);
+                heart3.gameObject.SetActive(false);
+                Time.timeScale = 0;
+                break;
+
+
+
+        }
     }
-
     //FixedUpdate is called at a fixed interval and is independent of frame rate. Put physics code here.
     void FixedUpdate()
     {
@@ -48,7 +91,18 @@ public class PlayerController : MonoBehaviour
 
         //Call the AddForce function of our Rigidbody2D rb2d supplying movement multiplied by speed to move our player.
         rb2d.AddForce(movement * currentspeed);
+
     }
+
+
+
+
+
+
+
+
+
+
 
     //OnTriggerEnter2D is called whenever this object overlaps with a trigger collider. for (rocketfuel) sprite
     void OnTriggerEnter2D(Collider2D other)
@@ -76,7 +130,13 @@ public class PlayerController : MonoBehaviour
             //Update the currently displayed count by calling the SetCountText function.
             SetCountText();
         }
-    }
+
+
+
+
+
+    
+}
 
     IEnumerator changespeedback()
     {
@@ -99,3 +159,4 @@ public class PlayerController : MonoBehaviour
 
     }
 }
+

@@ -7,9 +7,10 @@ public class PauseMenu : MonoBehaviour {
 
 
 
-    public void LoadMenu()
+    public void PlayAgain()
     {
-        SceneManager.LoadScene("MenuScene");
+        //SceneManager.LoadScene("MenuScene");
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
     public void QuitGame()

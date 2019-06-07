@@ -36,9 +36,6 @@ public class PlayerController : MonoBehaviour
             //Initialize count to zero.
             count = 0;
 
-            //Initialze winText to a blank string since we haven't won yet at beginning.
-            winText.text = "YOU WON";
-
             //Call our SetCountText function which will update the text with the current value for count.
             SetCountText();
         }
@@ -154,7 +151,7 @@ public class PlayerController : MonoBehaviour
         countText.text = "Count: " + count.ToString();
 
         //Check if we've collected all 12 pickups. If we have...
-        if (count >= 12)
+        if (count >= 6)
             //... then set the text property of our winText object to "You win!"
             winText.text = "You win!";
 

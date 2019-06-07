@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Projectile : MonoBehaviour
 {
@@ -37,8 +38,11 @@ public class Projectile : MonoBehaviour
             DestroyProjectile();
 
             PlayerController.health -= 1;
+            if (PlayerController.health <=0)
+            {
+                SceneManager.LoadScene("EndGameScreen");
 
-           // SceneManager.LoadScene(
+            }
 
         }
 

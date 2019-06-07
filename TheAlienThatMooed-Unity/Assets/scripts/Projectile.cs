@@ -38,7 +38,7 @@ public class Projectile : MonoBehaviour
 
             PlayerController.health -= 1;
 
-            SceneManager.LoadScene(
+           // SceneManager.LoadScene(
 
         }
 

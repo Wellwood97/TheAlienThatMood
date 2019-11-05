@@ -25,14 +25,4 @@ public class Music : MonoBehaviour
         audio.loop = true;
         audio.Play();
     }
-
-    //IEnumerator LoopCoroutine()
-    //{
-    //    while(true)
-    //    {   // wait for audio loop to finish
-    //        yield return new WaitForSeconds(loopLength);
-    //        // play audio
-    //        audio.PlayOneShot(SoundClip1);
-    //    }
-    //}
 }

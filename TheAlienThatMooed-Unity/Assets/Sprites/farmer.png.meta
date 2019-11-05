@@ -85,6 +85,42 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+<<<<<<< HEAD
+=======
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+>>>>>>> ab269623d17545d3f3ffed4a846733eb4120860f
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -92,10 +128,17 @@ TextureImporter:
       name: farmer_0
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 10
         y: 211
         width: 79
         height: 73
+=======
+        x: 11
+        y: 215
+        width: 82
+        height: 68
+>>>>>>> ab269623d17545d3f3ffed4a846733eb4120860f
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -103,7 +146,11 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD
       spriteID: 6181421779c0e7c469d6e9a0cf7afe3e
+=======
+      spriteID: 9a77ae7c974181e418de52f690f4b283
+>>>>>>> ab269623d17545d3f3ffed4a846733eb4120860f
       vertices: []
       indices: 
       edges: []
@@ -112,10 +159,17 @@ TextureImporter:
       name: farmer_1
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 114
         y: 211
         width: 76
         height: 85
+=======
+        x: 116
+        y: 217
+        width: 74
+        height: 78
+>>>>>>> ab269623d17545d3f3ffed4a846733eb4120860f
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -123,7 +177,11 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD
       spriteID: 4751c3dcc2a6d3e4ca43dfeb92adf175
+=======
+      spriteID: e3fc4959ad9590b4296697aeee732f6e
+>>>>>>> ab269623d17545d3f3ffed4a846733eb4120860f
       vertices: []
       indices: 
       edges: []
@@ -133,9 +191,15 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 13
+<<<<<<< HEAD
         y: 109
         width: 78
         height: 78
+=======
+        y: 117
+        width: 76
+        height: 66
+>>>>>>> ab269623d17545d3f3ffed4a846733eb4120860f
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -143,7 +207,11 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD
       spriteID: 6eb05ece70a5b09418ddc18b473fcdc0
+=======
+      spriteID: c92cad1e03dca084e81600f0634816a6
+>>>>>>> ab269623d17545d3f3ffed4a846733eb4120860f
       vertices: []
       indices: 
       edges: []
@@ -152,10 +220,17 @@ TextureImporter:
       name: farmer_3
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 108
         y: 116
         width: 83
         height: 77
+=======
+        x: 112
+        y: 116
+        width: 75
+        height: 74
+>>>>>>> ab269623d17545d3f3ffed4a846733eb4120860f
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -163,7 +238,11 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD
       spriteID: ad8fdba5080470745a9b15b5c6634765
+=======
+      spriteID: 0e7961ffd09fce845adc6d914364abd9
+>>>>>>> ab269623d17545d3f3ffed4a846733eb4120860f
       vertices: []
       indices: 
       edges: []
@@ -173,9 +252,15 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 12
+<<<<<<< HEAD
         y: 14
         width: 82
         height: 77
+=======
+        y: 22
+        width: 76
+        height: 66
+>>>>>>> ab269623d17545d3f3ffed4a846733eb4120860f
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -183,7 +268,11 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< HEAD
       spriteID: b724e012648b775408d10d52666cdc6b
+=======
+      spriteID: 55d0c5f92dfb2ec4081918e519524ef1
+>>>>>>> ab269623d17545d3f3ffed4a846733eb4120860f
       vertices: []
       indices: 
       edges: []
